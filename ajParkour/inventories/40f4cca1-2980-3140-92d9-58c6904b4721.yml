@@ -1,0 +1,127 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3578
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Server
+        Information"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-click
+        to see information about the server!"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4MrIL0lKLPIsSc1l4MjMS8tPys/PZgAA6i1uEhsAAAA=
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3578
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":">
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DB86E6","text":"P"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DA85D0","text":"v"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D984BA","text":"P
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D883A4","text":"S"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D8818D","text":"w"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D78077","text":"o"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D67F61","text":"r"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D57E4B","text":"d
+        "},{"bold":false,"italic":false,"color":"gray","text":"<"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Equip
+        this sword to fight other players!"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3578
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Server
+        Selector"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-click
+        to open the server selector!"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4MrIL0lKLPIsSc1l4C9OLSpLLYovTs1JTS7JL2IAAD+emnsiAAAA
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3578
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"GadgetsMenu"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Mystery
+        Dust: "},{"italic":false,"color":"aqua","text":"0"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Enjoy
+        fun cosmetic features!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"More
+        stuff will be added over time,"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"make
+        sure to check our update forums!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Thanks
+        you for supporting our server."}],"text":""}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      - HIDE_ARMOR_TRIM
+      internal: H4sIAAAAAAAA/+NiYOBi4HZPTElPLSn2Tc0r5WDgBVHxwak5qckl+UUMLCVFpakMDADi74YlKQAAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3578
+    type: LIME_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Players
+        "},{"bold":true,"italic":false,"color":"dark_gray","text":"> "},{"bold":false,"italic":false,"color":"green","text":"Shown
+        "},{"italic":false,"color":"gray","text":"(Right-Click)"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Click
+        to hide all players!"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4MrIL0lKLPIsSc1l4AnwcYx0DYr38HRxDWIAAKEnnmkfAAAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

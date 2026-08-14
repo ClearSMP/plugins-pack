@@ -1,0 +1,10 @@
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+
+areas:
+  '1':
+    difficulty: BALANCED
+    max: 2147483647
+    pos1: spawn,-55,91,-20,-135.3906,-11.5862255
+    pos2: spawn,-35,115,-56,-135.3906,-11.5862255
+    fallpos: spawn,0,65,0,4.7683716E-7,-6.4608183

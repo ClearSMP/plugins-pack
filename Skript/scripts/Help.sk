@@ -1,0 +1,4 @@
+command /servers:
+    executable by: players
+    trigger:
+        make player execute command "/servers"

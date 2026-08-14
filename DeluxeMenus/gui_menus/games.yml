@@ -1,0 +1,114 @@
+menu_title: '&8Servers'
+open_command: games
+size: 36
+items:
+  '10':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RhOTQ0OWNlYTEyMTE5YzIyY2E1YjkzYzI4Y2JlOWRmMzE1MjFjYTE1OWE1ZWE1ZmFhNWZmYjVhMTc4MGY1NyJ9fX0=
+    slot: 10
+    display_name: '&#1091fb&lD&#278ffc&li&#3d8cfc&ls&#548afd&lc&#6b87fe&lo&#8185fe&lr&#9882ff&ld'
+    lore:
+    - '&8-----------------------'
+    - '&fJoin Our Discord For'
+    - '&fLatest News And Support'
+    - '&8-----------------------'
+    - ''
+    - '&7Click To Join'
+  '12':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJiZTdlYWYwMWFmZjc0ZTUzZmExNDg0MGFiZGM5ZmE4OTJiMmZlOGJhMzJjYWNlMzUxN2JlZTBhMjVhMTJlIn19fQ==
+    slot: 12
+    display_name: '&#00F3FBSurvival'
+    lore: 
+    - '&8-------------------'
+    - '&fStart Your Survival'
+    - '&fAdventure with us'
+    - '&8-------------------'
+    - ''
+    - '&7Click To Join'
+  '13':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NkYWE1YmYwYmM1NDIwNTBjNzM0YzU4ZjQyODMyMTVjOWE0ZjBmMThjM2RkYWQ4NzE5MTNkYmY2NjdjZTQzMyJ9fX0=
+    slot: 13
+    display_name: '&#FB4A4Alifesteal'
+    lore: 
+    - '&8----------------'
+    - '&fStart PvP Master'
+    - '&fAdventure Now'
+    - '&8----------------'
+    - ''
+    - '&7Click To Join'
+  '14':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QyNGRjNTgwNjljMTIxMmI1MjlhNGFlNWQ0ZTczYmUwOTkwZDQ2ZmU5MzcxYjFmNzllODE2NGI0Mjg1OWFjOCJ9fX0=
+    slot: 14
+    display_name: '&#48FB7FFactions'
+    lore: 
+    - '&8------------------------'
+    - '&fStart Becoming Rich'
+    - '&fAnd Become Best Merchant'
+    - '&8------------------------'
+    - ''
+    - '&7Click To Join'
+  '15':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNkZTUxNGFmYTE5NGQ1Y2JkMDQ3N2MwNWI3Y2IxODVmZjFkZmZkMGMyZmFkZmFlMWE1YmI4MDY0ODU2Yzg5MiJ9fX0=
+    slot: 15
+    display_name: '&#FFFD36Towny'
+    lore: 
+    - '&8---------------------'
+    - '&fMake Your Own Kingdom'
+    - '&fAnd Fight For Others'
+    - '&8---------------------'
+    - ''
+    - '&7Click To Join'
+  '19':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ4MDRkYjliMzAxYmJhMGVjMjM3MjAwYTczMzNiZDQzOTAxZmVlM2MwMGM5NzEwYjBjMjhmNmM0NjkxNTlhOSJ9fX0=
+    slot: 19
+    display_name: '&#fb7b29&lY&#fc7a57&lo&#fd7a84&lu&#fe79b2&lr &#ff78df&lS&#ff7de5&le&#fe87c4&lr&#fd91a2&lv&#fc9b81&le&#fba55f&lr'
+    lore:
+    - '&8-------------------'
+    - '&fCheck Our Server'
+    - '&fStore For Stuff'
+    - '&8-------------------'
+    - ''
+    - '&7Click To Join'
+  '21':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJkZDc5OTAxNzdjNTA0NzMxYmIzYTdlNDkxMjQ3YjRjYTNlOGZkZmRlYjI4NTk1NTAzNGY0ZGYyYjNlNWJlYSJ9fX0=
+    slot: 21
+    display_name: '&#007DFFOneblock'
+    lore: 
+    - '&8------------------------'
+    - '&fStart Making Your Island'
+    - '&fBy Mining One Block'
+    - '&8------------------------'
+    - ''
+    - '&7Click To Join'
+  '22':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWViODU3MzZhOWU2ZDhkNDhkMTRiZDAyMTNlNzIwNWU2YWMzNGZmMGFkNmUyYzZlYjY0MWQ5NDc4MWY2MjM2OSJ9fX0=
+    slot: 22
+    display_name: '&#F49EFFSkyblock'
+    lore: 
+    - '&8---------------------'
+    - '&fMake Your Island The'
+    - '&fBest With Cool Feature'
+    - '&8----------------------'
+    - ''
+    - '&7Click To Join'
+  '23':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTExODgyZGYxZGVlZDQ4MjRmNDNmNTI0YTAzZGQ3ZTllZmQxMTQ4ZDM2MjQ1YzE2MmJmMmIzZWIzZjgzZjY0ZSJ9fX0=
+    slot: 23
+    display_name: '&#8A8BFFBedwars'
+    lore: 
+    - '&8-----------------------'
+    - '&fDestroy Beds! Eliminate'
+    - '&fTeams And Win'
+    - '&8-----------------------'
+    - ''
+    - '&7Click To Join'
+  '24':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM1OTczNThiODUwNGJiZTJkNDk4NzZhYjk2MTZiNWYwMTg1MGJhZWZkNWI4N2YxNTI2ZWMwOTBjODJmNTNkNSJ9fX0=
+    slot: 24
+    display_name: '&#FFA408Skywars'
+    lore: 
+    - '&8-----------------'
+    - '&fKill Players With'
+    - '&fNo Beds'
+    - '&8-----------------'
+    - ''
+    - '&7Click To Join'

@@ -1,0 +1,17 @@
+instances:
+  default:
+    endLocation: world, -994.000, 4.000, 853.000, 0.000, 0.000
+    areaMin: world, -994.000, 4.000, 853.000, 0.000, 0.000
+    areaMax: world, -994.000, 4.000, 853.000, 0.000, 0.000
+    isdone: false
+    showOutlines: true
+    plateLocation: world, -994.000, 4.000, 853.000, 0.000, 0.000
+    arenaPlate: OAK_PRESSURE_PLATE
+  king:
+    endLocation: spawn, 15.522, 72.000, 0.454, -90.636, 90.000
+    areaMin: spawn, 19.000, 64.000, 4.000, 0.000, 0.000
+    areaMax: spawn, 11.000, 73.000, -4.000, 0.000, 0.000
+    isdone: true
+    showOutlines: true
+    plateLocation: spawn, 15.000, 71.000, 0.000, 0.000, 0.000
+    arenaPlate: OAK_PRESSURE_PLATE

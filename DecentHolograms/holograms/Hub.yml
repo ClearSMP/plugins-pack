@@ -1,0 +1,19 @@
+location: spawn:0.497:68.500:21.576
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#18d9fb&lY&#2de1fb&lo&#42e8fb&lu&#56f0fb&lr &#6bf7fb&lN&#80fffb&le&#6bf7fb&lt&#56f0fb&lw&#42e8fb&lo&#2de1fb&lr&#18d9fb&lk
+      &f| &#18d9fb&lW&#3be6fb&le&#5df2fb&ll&#80fffb&lc&#5df2fb&lo&#3be6fb&lm&#18d9fb&le'
+    height: 0.3
+  - content: Hey! &b%player_name% &fStart Your Journey On Our Server
+    height: 0.3
+  - content: By Joining The Gamemodes You Love!
+    height: 0.3
+  - content: Our Server is 100% Secure and Fun To Play!
+    height: 0.3
+  actions: {}

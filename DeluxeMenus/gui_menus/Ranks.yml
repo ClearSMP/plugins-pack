@@ -1,0 +1,313 @@
+#Config made by https://builtbybit.com/resources/ranks-gui-free-buy-special-ranks.36528/?ref=discover
+#Modified by Me
+
+menu_title: '            &#2E2E2E▸ Ranks Info ◂'
+open_command: 
+- ranks
+size: 54
+register_command: true
+items:
+  'BG':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 0-53
+  'close':
+    material: BARRIER
+    display_name: '&c&l❌ &cClose'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+    slot: 49
+  'profile':
+    material: 'paper'
+    slot: 4
+    display_name: '&8↓ &fProfile &8↓'
+    lore:
+    - ''
+    - '&fRank &8➠ &e%vault_group%'
+  'vip':
+    material: 'ENCHANTED_BOOK'
+    slot: 20
+    display_name: '&#00ff9cVIP Rank &7(Perks)'
+    lore:
+    - ''
+    - '&fExclusive chat tag.'
+    - '&fAccess to VIP-only chat channels.'
+    - ''
+  'vip+':
+    material: 'ENCHANTED_BOOK'
+    slot: 21
+    display_name: '&#00F7FFVIP+ Rank &7(Perks)'
+    lore:
+    - ''
+    - '&fAll VIP perks.'
+    - '&fIncreased chat visibility.'
+    - '&fAdditional cosmetic items.'
+    - ''     
+  'mvp':
+    material: 'ENCHANTED_BOOK'
+    slot: 22
+    display_name: '&#FF4F4FMVP Rank &7(Perks)'
+    lore:
+    - ''
+    - '&fEnhanced chat features.'
+    - '&fPriority support.'
+    - '&fExclusive cosmetic items.'
+    - ''
+  'mvp+':
+    material: 'ENCHANTED_BOOK'
+    slot: 23
+    display_name: '&#FFD389MVP+ Rank &7(Perks)'
+    lore:
+    - ''
+    - '&fAll MVP perks.'
+    - '&fIncreased chat visibility.'
+    - '&fAdditional cosmetic options.'
+    - ''
+  'mvp++':
+    material: 'ENCHANTED_BOOK'
+    slot: 24
+    display_name: '&#FFFEACMVP++ Rank &7(Perks)'
+    lore:
+    - ''
+    - '&fAll MVP+ perks.'
+    - '&fPriority support.'
+    - '&fExclusive cosmetic items.'
+    - ''
+
+####################################################################################################################
+
+  'buy-vip':
+    material: 'LIME_STAINED_GLASS'
+    slot: 29
+    priority: 2
+    display_name: '&#00ff9cVIP Rank'
+    lore:
+    - ''
+    - '&7Requirements'
+    - '&8---------------------'
+    - '&#00ff9cPrice &f1000⭐'
+    - '&#00ff9cExpires &fNever'
+    - '&8---------------------'
+    - ''
+    - '&#00ff9c&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '10000'
+      deny_commands:
+      - '[close]'
+      - '[sound] block_anvil_land'
+      - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou do not have enough money.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent addtemp vip 30d'
+    - '[console] points take %player_name% 10000'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fSuccessfully bought rank.'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou have &e⭐%playerpoints_points% &fleft'
+  'own-vip':
+    material: 'LIME_STAINED_GLASS'
+    slot: 29
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.vip'
+    display_name: '&#00ff9cVIP Rank'
+    lore:
+    - ''
+    - '&8--------------------------'
+    - '&f You Already own this rank'
+    - '&8--------------------------'
+  'buy-vip+':
+    material: 'LIGHT_BLUE_STAINED_GLASS'
+    slot: 30
+    priority: 2
+    display_name: '&#00F7FFVIP+ Rank'
+    lore:
+    - ''
+    - '&7Requirements'
+    - '&8---------------------------'
+    - '&#00F7FFPrice &f2000⭐'
+    - '&#00F7FFExpires &fNever'
+    - '&#00ff9cVIP Rank &7(Required)'
+    - '&8---------------------------'
+    - ''
+    - '&#00F7FF&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '25000'
+      deny_commands:
+      - '[close]'
+      - '[sound] block_anvil_land'
+      - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou do not have enough money.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent addtemp vip+ 30d'
+    - '[console] points take %player_name% 25000'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fSuccessfully bought rank.'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou have &e⭐%playerpoints_points% &fleft'
+  'own-vip+':
+    material: 'LIGHT_BLUE_STAINED_GLASS'
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.vip+'
+    display_name: '&#00F7FFVIP+ Rank'
+    lore:
+    - ''
+    - '&8--------------------------'
+    - '&f You Already own this rank'
+    - '&8--------------------------'
+  'buy-mvp':
+    material: 'RED_STAINED_GLASS'
+    slot: 31
+    priority: 2
+    display_name: '&#FF4F4FMVP Rank'
+    lore:
+    - ''
+    - '&7Requirements'
+    - '&8---------------------------'
+    - '&#FF4F4FPrice &f2500⭐'
+    - '&#FF4F4FExpires &fNever'
+    - '&#00F7FFVIP+ Rank &7(Required)'
+    - '&8---------------------------'
+    - ''
+    - '&#FF4F4F&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '50000'
+      deny_commands:
+      - '[close]'
+      - '[sound] block_anvil_land'
+      - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou do not have enough money.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent addtemp mvp 30d'
+    - '[console] points take %player_name% 50000'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fSuccessfully bought rank.'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou have &e⭐%playerpoints_points% &fleft'
+  'own-mvp':
+    material: 'RED_STAINED_GLASS'
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.mvp'
+    display_name: '&#FF4F4FMVP Rank'
+    lore:
+    - ''
+    - '&8--------------------------'
+    - '&f You Already own this rank'
+    - '&8--------------------------'
+  'buy-mvp+':
+    material: 'ORANGE_STAINED_GLASS'
+    slot: 32
+    priority: 2
+    display_name: '&#FFD389MVP+ Rank'
+    lore:
+    - ''
+    - '&7Requirements'
+    - '&8---------------------------'
+    - '&#FFD389Price &f2500⭐'
+    - '&#FFD389Expires &fNever'
+    - '&#FF4F4FMVP Rank &7(Required)'
+    - '&8---------------------------'
+    - ''
+    - '&#FFD389&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '75000'
+      deny_commands:
+      - '[close]'
+      - '[sound] block_anvil_land'
+      - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou do not have enough money.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent addtemp mvp+ 30d'
+    - '[console] points take %player_name% 75000'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fSuccessfully bought rank.'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou have &e⭐%playerpoints_points% &fleft'
+  'own-mvp+':
+    material: 'ORANGE_STAINED_GLASS'
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.mvp+'
+    display_name: '&#FFD389MVP+ Rank'
+    lore:
+    - ''
+    - '&8--------------------------'
+    - '&f You Already own this rank'
+    - '&8--------------------------'
+  'buy-mvp++':
+    material: 'YELLOW_STAINED_GLASS'
+    slot: 33
+    priority: 2
+    display_name: '&#FFFEACMVP++ Rank'
+    lore:
+    - ''
+    - '&7Requirements'
+    - '&8---------------------------'
+    - '&#FFFEACPrice &f5000⭐'
+    - '&#FFFEACExpires &f30 days'
+    - '&#FFD389MVP+ Rank &7(Required)'
+    - '&8----------------------------'
+    - ''
+    - '&#FFFEAC&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '100000'
+      deny_commands:
+      - '[close]'
+      - '[sound] block_anvil_land'
+      - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou do not have enough money.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent addtemp mvp++ 30d'
+    - '[console] points take %player_name% 100000'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fSuccessfully bought rank.'
+    - '[message] &b&lsᴜʀᴠɪᴠᴀʟ &7| &fYou have &e⭐%playerpoints_points% &fleft'
+  'own-mvp++':
+    material: 'YELLOW_STAINED_GLASS'
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.mvp++'
+    display_name: '&#FFFEACMVP++ Rank'
+    lore:
+    - ''
+    - '&8--------------------------'
+    - '&f You Already own this rank'
+    - '&8--------------------------'

@@ -1,0 +1,47 @@
+menu_title: '&x&0&6&a&e&d&5&lS&x&3&8&8&b&c&0&lo&x&6&a&6&8&a&c&lc&x&9&b&4&6&9&7&li&x&c&d&2&3&8&3&la&x&f&f&0&0&6&e&ll &x&d&d&1&4&8&b&lM&x&b&b&2&8&a&8&le&x&9&8&3&d&c&5&ld&x&7&6&5&1&e&2&li&x&5&4&6&5&f&f&la'
+open_command: socialmedia
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.socialmedia
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+items:
+  'Twitter':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkNDZhNDIyYWU1OTYwM2ZkODg5YzI1MzQ0ZmY2N2JjODQzYWY4ZWU1MTg5MzJjMmUyYWQwN2NkYmY5MzliMyJ9fX0=
+    display_name: '&b&lTwitter'
+    slots:
+    - 12
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[message] &r&f'
+    - '[message] &f           Check out &#ACDAFBsneak peaks&f, &#ACDAFBupdates&f,'
+    - '[message] &f         and the &#ACDAFBlatest news &fon our &#219ebcTwitter&f!'
+    - '[message] &f              &#219ebc&ltwitter.com/servername'
+    - '[message] &7 &7 &7'
+  'Instagram':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBkNDY0MTg2ZTFhNTBkZGFhMTRiZTIyNTk2MTFhNGU4NDU4NTE1YTUzNjdhOTM4OWE5Y2M3Yzg5Yzk0YTkzYiJ9fX0=
+    display_name: '&d&lInstagram'
+    slots:
+    - 13
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[message] &r&f'
+    - '[message] &f           Check out &#ACDAFBsneak peaks&f, &#ACDAFBupdates&f,'
+    - '[message] &f       and the &#ACDAFBlatest news &fon our &#ff006eInstagram&f!'
+    - '[message] &f           &#ff006e&linstagram.com/servername'
+    - '[message] &7 &7 &7'
+  'Discord':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg3M2MxMmJmZmI1MjUxYTBiODhkNWFlNzVjNzI0N2NiMzlhNzVmZjFhODFjYmU0YzhhMzliMzExZGRlZGEifX19
+    display_name: '&9&lDiscord'
+    slots:
+    - 14
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[message] &r&f'
+    - '[message] &#ACDAFB         Chat with the community&f, &#ACDAFBget updates&f,'
+    - '[message] &f         and the &#ACDAFBlatest news &fon our &#5465ffDiscord&f!'
+    - '[message] &#ACDAFB                  &#5465ff&ldiscord.gg/server'
+    - '[message] &7 &7 &7'
